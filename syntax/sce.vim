@@ -34,7 +34,7 @@ syn region sceString start='"' end='"'
 " syn region sceBeginEnd start="begin" end="end"  contains=sceType, sceNumber, sceString, sceTodo, sceComment
 syn keyword sceBlock loop until begin end sub
 syn keyword sceBuild term_print term_println array
-syn keyword sceLogic if then elseif end
+syn keyword sceLogic if then elseif else end
 
 let b:current_syntax = "sce"
 

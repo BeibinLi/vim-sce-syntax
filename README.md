@@ -6,9 +6,9 @@
 Description
 -----------------
 
-This project adds [SCE] support to vim. It covers syntax and so on
+This project adds SDL and PCL support to vim. It covers syntax and so on.
 
-SCE is the language used in Neurobs Presentation Software. It's a strange language.
+SDL and PCL languages are used in Neurobs Presentation Software. Strange languages.
 
 Hope this syntax file could help you work with Presentation.
 
@@ -20,7 +20,10 @@ Hope this syntax file could help you work with Presentation.
 ### Vundle
 1. Add the line
 	
-		"Plugin 'BeibinLi/vim-sce-syntax' " into your .vimrc file
+		"Plugin 'BeibinLi/vim-sce-syntax' " 
+
+into your .vimrc file
+
 2. Install with `:PluginInstall`
 
 
